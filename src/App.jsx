@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SubscriptionPage from './pages/SubscriptionPage';
-import Header from './components/header';
+import Header from './components/Header';  // Correction de l'importation du Header
 import Reservation from './components/reservation';
 import Menu from './components/menu';
 import CartPage from './pages/CartPage';  // Update this import
