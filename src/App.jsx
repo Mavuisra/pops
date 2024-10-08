@@ -49,7 +49,7 @@ const App = () => {
         <Router>
         <div className="min-h-screen bg-gray-100">
             <Header cartItemsCount={cartItems.length} />
-            <main className="container mx-auto p-2">
+            <main className="container  p-2">
                 <Routes>
                     <Route path="/" element={<Menu addToCart={addToCart} />} />
                     <Route path="/cart" element={
